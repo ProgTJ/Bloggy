@@ -1,20 +1,35 @@
 /* The beginning */
 
 .nav-wrapper {
-  padding: 0;
-  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -8px;
+  margin-right: -8px;
+  margin-left: -8px;
   overflow: hidden;
-  background-color: #DDDDDD;
+  background-color: #001f3f;
 
 }
 .nav-wrapper a {
-  float: left;
+  float: right;
   display: block;
   padding: 8px;
   color: #F012BE;
-  
+
 }
 
 .nav-wrapper a:hover {
-  background-color: #001f3f;
+  background-color: #DDDDDD;
+}
+
+.head-1 {
+  background-color: #92a8d1;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: -0.2px;
+  margin-left: -8px;
+  margin-right: -8px;
+
+
 }
