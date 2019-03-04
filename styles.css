@@ -23,13 +23,22 @@
 }
 
 .head-1 {
-  background-color: #92a8d1;
+text-align: center;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+article {
+  margin: 2%;
+}
+
+h2 {
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: -0.2px;
-  margin-left: -8px;
-  margin-right: -8px;
+}
 
-
+a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
