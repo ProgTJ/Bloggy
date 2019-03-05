@@ -3,35 +3,57 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bloggy</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
   </head>
 
   <body>
 
-    <nav class="nav-wrapper">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="blog.html">MyBlog</a>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Zv</a>
+      <a class="nav-link active" href="index.html">Home</a>
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+      <a class="nav-link" href="blog.html">MyBlog</a>
     </nav>
-    <h1> Bloggy</h1>
-    <h2> My Blog Post</h2>
+    <h1 class="head-1 display-2"> BLOGGY</h1>
+    <h2 class="display-4"> My Blog Post</h2>
 
     <section>
-      <article>
-        <h2> What is Bloggy?</h2>
-        <p> Bloggy is a simple website for blogging. Really... that's it</p>
+      <article class="container shadow p-3 mb-5 bg-white rounded">
+        <h2 class="lead"> What is Bloggy?</h2>
+        <hr>
+        <p> Bloggy is a simple website for blogging. Really... that's it. It doesn't look like it at the moment but it will just give me a few hours, days maybe...</p>
       </article>
     </section>
 
     <section>
-      <article>
-        <h2>Sample Blog</h2>
-        <p> I had lunch today with the execs at Google. I was overwhelmed by their demeanor but I felt respected at every point of our conversation.</p>
+      <article class="container shadow p-3 mb-5 bg-white rounded">
+        <h2 class="display-4">Latest Blog Post</h2>
+          <hr>
+        <p> Watching Black Mirror and I have to admit I didn't know what it really was at first but now I'm really liking it. Shows what society is like in reality.</p>
+        <p><b>Side Note</b><br> Creating my blog site as I watch the show. Had to pause because I was trying to figure what was more suitable breaklines or new headings. Lol It must feel weird reading this right? No, biggie you'll understand this site soon enough. Welcome to Bloggy. Welcome to the start of my success. You get to read and see where it all started with good old fashioned html, css, javascript and my personal selection of programming languages(rust ftw).</p>
+      </article>
+
+      <article class="container shadow p-3 mb-5 bg-white rounded">
+        <h2 class="dispay-4"><a href="post/BlackMirror.html">Black Mirror Season 1 Review(While Coding)</a></h2>
+          <hr>
+        <time><b>10:43</b><time>
+
+        <div class="more">
+          <p><b>Side Note</b><br>Okay so quick update. It's still the same night of the blog
+            probably about 20 minutes after. Had to make a slight adjustment
+            to the site. I need to figure out how to I want to manage my blogs
+            as well as formatting. This will be fun yay(sarcasm).<a href="post/BlackMirror.html">Read More</a></p>
+
+
       </article>
     </section>
-
+    <!--JavaScript at end of body for optimized loading-->
+          <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
 
 </html>
